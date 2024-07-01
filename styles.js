@@ -1,7 +1,8 @@
 import { createGlobalStyle } from "styled-components";
-import { Open_Sans } from "next/font/google";
+import { Open_Sans, Roboto } from "next/font/google";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default createGlobalStyle`
   *, 
@@ -14,6 +15,7 @@ export default createGlobalStyle`
     --primary-color: #22babb; 
     --secondary-color: #f24405;
     --primary-background: #d3d3d3;
+    --font-roboto: ${roboto.style.fontFamily}
   }
 
   body {

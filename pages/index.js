@@ -21,9 +21,10 @@ const Button = styled.button`
 `;
 
 const StyledLink = styled(Link)`
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   color: var(--primary-color);
+  font-family: var(--font-roboto);
 
   &:hover {
     color: var(--secondary-color);

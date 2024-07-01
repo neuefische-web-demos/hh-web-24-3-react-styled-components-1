@@ -13,6 +13,7 @@ const Button = styled.button`
   padding: 1rem;
   color: white;
   background-color: var(--primary-color);
+  font-family: var(--font-electrolize);
 
   &:hover {
     color: black;
